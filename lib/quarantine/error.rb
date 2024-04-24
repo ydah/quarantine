@@ -3,7 +3,7 @@
 class Quarantine
   class Error < StandardError; end
 
-  # Raised when a database error has occured
+  # Raised when a database error has occurred
   # TODO(ezhu): expand error messages to cover more specific error messages
   class DatabaseError < Error; end
 
