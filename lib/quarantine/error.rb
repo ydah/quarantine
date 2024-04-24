@@ -10,6 +10,6 @@ class Quarantine
   # Raised when quarantine does not know how to upload a specific test
   class UnknownUploadError < Error; end
 
-  # Quarantine does not work with the specificed database
+  # Quarantine does not work with the specified database
   class UnsupportedDatabaseError < Error; end
 end
